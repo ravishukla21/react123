@@ -1,9 +1,13 @@
-let num=13
-let count=0
+
+let num=13;
+let factor=0;
+
 for(i=1;i<=num;i++){
-if(num%i==0)
-{
-count++}
-if(count==2){
+    if(num%i==0){
+      factor++;
+    }
+}
+
+if(factor==2){
 console.log("prime")
 }
